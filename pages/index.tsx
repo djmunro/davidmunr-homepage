@@ -60,12 +60,12 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            David is a freelance and full-stack developer based in Michigan with
-            a passion for thoughtful UI design, collaboration, and teaching. He
-            has a knack for all things launching products, from planning an
+            David is a freelance and full-stack developer based in Michigan. He
+            has a passion for thoughtful UI design, collaboration, and teaching.
+            He has a knack for all things launching products, from planning an
             designing all the way to solving real-life problems with code. When
-            not online, he loves playing disc golf and spending time with his
-            family.
+            not online, he loves playing spending time with his family and
+            playing disc golf.
           </Paragraph>
           <Box textAlign="center" my={4}>
             <NextLink href="/projects">
@@ -103,7 +103,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Start job at Deepfield(Nokia) as software engineer.
+            Started job at Deepfield(Nokia) as software engineer.
           </BioSection>
           <BioSection>
             <BioYear>2020 to present</BioYear>
@@ -116,7 +116,7 @@ const Page = () => {
             I ❤
           </Heading>
           <Paragraph>
-            My family, Disc golf, Building Apps and minimalism
+            My family, Disc golf, Building Apps and Minimalism.
           </Paragraph>
         </Section>
 
