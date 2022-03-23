@@ -4,9 +4,16 @@ import NextLink from 'next/link'
 import Image from 'next/image'
 import { Global } from '@emotion/react'
 
-export const GridItem = ({ children, href, title, thumbnail }) => {
+interface Props {
+  children?: React.ReactNode
+  href: string
+  title: string
+  thumbnail: any
+}
+
+export const GridItem = ({ children, href, title, thumbnail }: Props) => {
   return (
-    <Box w="100%" align="center">
+    <Box w="100%" textAlign="center">
       <LinkBox cursor="pointer">
         <Image
           src={thumbnail}
@@ -26,7 +33,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => {
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => {
   return (
-    <Box w="100%" align="center">
+    <Box w="100%" textAlign="center">
       <NextLink href={`/projects/${id}`}>
         <LinkBox cursor="pointer">
           <Image

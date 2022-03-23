@@ -27,7 +27,7 @@ const Page = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           p={3}
           mb={6}
-          align="center"
+          textAlign="center"
         >
           Hello, I&apos;m a full-stack developer based in Michigan!
         </Box>
@@ -42,7 +42,7 @@ const Page = () => {
             flexShrink={0}
             mt={{ base: 4, md: 0 }}
             ml={{ mde: 6 }}
-            align="center"
+            textAlign="center"
           >
             <Image
               borderColor="whiteAlpha.800"
@@ -67,7 +67,7 @@ const Page = () => {
             not online, he loves playing disc golf and spending time with his
             family.
           </Paragraph>
-          <Box align="center" my={4}>
+          <Box textAlign="center" my={4}>
             <NextLink href="/projects">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Portfolio

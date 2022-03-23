@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import { motion } from 'framer-motion'
-import { GridItem } from '@chakra-ui/react'
 import { GridItemStyle } from '../grid-item'
 
 const variants = {
@@ -10,7 +9,12 @@ const variants = {
   exit: { opacity: 0, x: 0, y: 20 }
 }
 
-const Layout = ({ children, title }) => (
+interface Props {
+  children: React.ReactNode
+  title?: string
+}
+
+const Layout = ({ children, title }: Props) => (
   <motion.article
     initial="hidden"
     animate="enter"

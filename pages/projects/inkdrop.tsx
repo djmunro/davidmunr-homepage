@@ -2,7 +2,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Badge, Container, Link, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/Layouts/article'
 import Paragraph from '../../components/paragraph'
-import { Meta, ProjectImage, Title, WorkImag } from '../../components/project'
+import { Meta, ProjectImage, Title } from '../../components/project'
 
 const Project = () => {
   return (
