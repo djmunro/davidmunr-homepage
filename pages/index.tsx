@@ -132,12 +132,12 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
-                  @djmunro
+                  djmunro
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://discord.gg/munrod86" target="_blank">
+              <Link href="https://twitter.com/munrod86" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
