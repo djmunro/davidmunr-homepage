@@ -15,11 +15,11 @@ export default function Projects() {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
+          {/* <Section>
             <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
               A markdown note-taking app
             </WorkGridItem>
-          </Section>
+          </Section> */}
         </SimpleGrid>
       </Container>
     </Layout>

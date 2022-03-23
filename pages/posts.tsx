@@ -15,7 +15,7 @@ const Posts = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
+          {/* <GridItem
             title="My Fish workflow"
             thumbnail={thumbFishWorkflow}
             href="https://www.youtube.com/watch?v=KKxhf50FIPI"
@@ -24,7 +24,7 @@ const Posts = () => (
             title="My desk setup (Late 2020)"
             thumbnail={thumbMyDeskSetup}
             href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
-          />
+          /> */}
         </SimpleGrid>
       </Section>
     </Container>
