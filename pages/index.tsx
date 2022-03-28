@@ -36,7 +36,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               David Munro
             </Heading>
-            <p>Digital Craftsman (Developer / Designer)</p>
+            <p>Digital Craftsman (Developer/Designer)</p>
           </Box>
           <Box
             flexShrink={0}
@@ -61,11 +61,11 @@ const Page = () => {
           </Heading>
           <Paragraph>
             David is a freelance and full-stack developer based in Michigan. He
-            has a passion for thoughtful UI design, collaboration, and teaching.
-            He has a knack for all things launching products, from planning an
+            has a passion for thoughtful UI design, collaboration and teaching.
+            He has a knack for all things launching products, from planning and
             designing all the way to solving real-life problems with code. When
-            not online, he loves playing spending time with his family and
-            playing disc golf.
+            not online, he loves spending time with his family and playing disc
+            golf.
           </Paragraph>
           <Box textAlign="center" my={4}>
             <NextLink href="/projects">
@@ -90,12 +90,12 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2014</BioYear>
-            Started job as Test Engineer at Harman.
+            Transitioned to a Test Engineering position at Harman.
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
             Completed Bachelors of Science in Computer Science from Wayne State
-            University.
+            University(Detroit, MI).
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
@@ -103,7 +103,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Started job at Deepfield(Nokia) as software engineer.
+            Started job at Deepfield(Nokia) as a software engineer.
           </BioSection>
           <BioSection>
             <BioYear>2020 to present</BioYear>
